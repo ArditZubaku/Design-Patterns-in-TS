@@ -8,10 +8,14 @@ if (!filePath) {
 }
 
 const tsFilePath = path.resolve(filePath);
-const jsFilePath = path.join('dist', path.relative('src', tsFilePath)).replace(/\.ts$/, '.js');
+const jsFilePath = path
+  .join('dist', path.relative('src', tsFilePath))
+  .replace(/\.ts$/, '.js');
 
 try {
-  execSync(`esbuild ${tsFilePath} --bundle --platform=node --outfile=${jsFilePath}`);
+  execSync(
+    `esbuild ${tsFilePath} --bundle --platform=node --outfile=${jsFilePath}`,
+  );
   execSync(`node ${jsFilePath}`, { stdio: 'inherit' });
 } catch (error) {
   console.error('Error building or running the file:', error.message);

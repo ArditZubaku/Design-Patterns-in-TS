@@ -48,16 +48,24 @@ function formatQuestion(quizQuestion: QuizQuestion) {
   console.log(`4. ${quizQuestion.getAnswer4()}`);
 }
 
-const quizQuestion = new QuizQuestion("Which framework uses TypeScript", "React", "Vue", "Angular", "Cycle", 3);
+const quizQuestion = new QuizQuestion(
+  'Which framework uses TypeScript',
+  'React',
+  'Vue',
+  'Angular',
+  'Cycle',
+  3,
+);
 
 formatQuestion(quizQuestion);
 
 class TrueFalseQuestion extends QuizQuestion {
   constructor(question: string) {
-    super(question, "TRUE", "FALSE", null, null, 1);
+    super(question, 'TRUE', 'FALSE', null, null, 1);
   }
 }
 
-const trueFalseQuestion = new TrueFalseQuestion("TypeScript is a superset of JavaScript");
+const trueFalseQuestion = new TrueFalseQuestion(
+  'TypeScript is a superset of JavaScript',
+);
 formatQuestion(trueFalseQuestion);
-
