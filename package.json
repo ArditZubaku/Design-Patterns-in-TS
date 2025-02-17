@@ -1,9 +1,11 @@
 {
-  "name": "DesignPatternsTS",
+  "name": "design-patterns-ts",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
-  "scripts": {},
+  "scripts": {
+    "start": "node build-run.js"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
