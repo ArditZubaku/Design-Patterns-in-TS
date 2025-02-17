@@ -1,4 +1,4 @@
-import { GameCharactersFactory } from "./game-characters-factory";
+import { GameCharactersFactory } from './game-characters-factory';
 
 const warrior = GameCharactersFactory.getWarrior(6);
 const mage = GameCharactersFactory.getMage(12);

@@ -4,4 +4,3 @@ export interface IGameCharacter {
   health: number;
   magic: number;
 }
-

@@ -1,4 +1,4 @@
-import { IGameCharacter } from "./game-character";
+import { IGameCharacter } from './game-character';
 
 export class GameCharactersFactory {
   public static getWarrior(level: number): IGameCharacter {
@@ -16,9 +16,9 @@ export class GameCharactersFactory {
     let mage: IGameCharacter;
 
     if (level < 10) {
-      mage = { strength: 0, dexterity: 8, health: 10, magic: 32, }
+      mage = { strength: 0, dexterity: 8, health: 10, magic: 32 };
     } else {
-      mage = { strength: 2, dexterity: 12, health: 14, magic: 92 }
+      mage = { strength: 2, dexterity: 12, health: 14, magic: 92 };
     }
 
     return mage;
