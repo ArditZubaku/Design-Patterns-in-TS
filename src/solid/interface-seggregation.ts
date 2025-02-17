@@ -1,8 +1,8 @@
 //interface ISmartDevice {
-  //call(contanct: string): void;
-  //sendSMS(contanct: string, content: string): void;
-  //openApp(path: string): void;
-  //connectToWifi(SSID: string, password: string): void;
+//call(contanct: string): void;
+//sendSMS(contanct: string, content: string): void;
+//openApp(path: string): void;
+//connectToWifi(SSID: string, password: string): void;
 //}
 
 // Segreggating - Splitting the interface
@@ -43,22 +43,22 @@ smartPhone.openApp('Facebook');
 smartPhone.connectToWifi('MyWorkWIFI', 'cc3cc3a2-39ab-44c9-9036-ef46aa7f110d');
 
 //class Tablet implements ISmartDevice {
-  //call(contanct: string): void {
-    //throw new Error('This device cannot place a call');
-  //}
+//call(contanct: string): void {
+//throw new Error('This device cannot place a call');
+//}
 
-  //sendSMS(contanct: string, content: string): void {
-    //throw new Error('This device cannot connect to a cell phone network');
-  //}
+//sendSMS(contanct: string, content: string): void {
+//throw new Error('This device cannot connect to a cell phone network');
+//}
 
-  //openApp(path: string): void {
-    //console.log('Opening app ' + path);
-  //}
-  //connectToWifi(SSID: string, password: string): void {
-    //console.log(
-      //'Connecting to WIFI of SSID: ' + SSID + ' with passsword: ' + password,
-    //);
-  //}
+//openApp(path: string): void {
+//console.log('Opening app ' + path);
+//}
+//connectToWifi(SSID: string, password: string): void {
+//console.log(
+//'Connecting to WIFI of SSID: ' + SSID + ' with passsword: ' + password,
+//);
+//}
 //}
 
 class Tablet implements IPhoneDevice {
