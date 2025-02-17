@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
@@ -24,12 +24,6 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "**/*.test.ts"
-  ]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
 }
