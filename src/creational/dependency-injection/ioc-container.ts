@@ -50,15 +50,19 @@ export class IoCContainer {
 
 // Register decorator
 //export function Register(name: string, dependencies: string[]): Function {
-  //return function<T extends IConstructor>(constructor: T) {
-    //console.log('constructor', constructor.name);
-    //IoCContainer.getInstance().register(name, dependencies, constructor)
-  //}
+//return function<T extends IConstructor>(constructor: T) {
+//console.log('constructor', constructor.name);
+//IoCContainer.getInstance().register(name, dependencies, constructor)
+//}
 //}
 
 export function Register(dependencies: IConstructor[]): Function {
-  return function<T extends IConstructor>(constructor: T) {
+  return function <T extends IConstructor>(constructor: T) {
     console.log('constructor', constructor.name);
-    IoCContainer.getInstance().register(constructor.name, dependencies.map(d => d.name), constructor)
-  }
+    IoCContainer.getInstance().register(
+      constructor.name,
+      dependencies.map((d) => d.name),
+      constructor,
+    );
+  };
 }

@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "lib": ["ES6"],
+    "types": ["reflect-metadata", "node"],
     "outDir": "./dist",
     "rootDir": "./src",
     "target": "ES2022",

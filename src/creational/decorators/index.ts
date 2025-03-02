@@ -1,5 +1,9 @@
 // args are passed by the Decorator mechanism itself a.k.a TS
-const DisableDecorator: MethodDecorator = (_target, _propertyKey, descriptor) => {
+const DisableDecorator: MethodDecorator = (
+  _target,
+  _propertyKey,
+  descriptor,
+) => {
   descriptor.value = (() => {
     // throw new Error('Method is disabled');
     console.error('Method is disabled');
@@ -11,7 +15,11 @@ const DisableDecorator: MethodDecorator = (_target, _propertyKey, descriptor) =>
 const Before = (hook: Function): Function => {
   // The factory function returns a decorator that can be applied to a method
   // The factory runs only once
-  return function<T extends Function>(_target: Object, _methodName: string, descriptor: PropertyDescriptor): PropertyDescriptor {
+  return function <T extends Function>(
+    _target: Object,
+    _methodName: string,
+    descriptor: PropertyDescriptor,
+  ): PropertyDescriptor {
     return {
       get(this: T) {
         const originalMethod = descriptor.value.bind(this);
@@ -19,11 +27,11 @@ const Before = (hook: Function): Function => {
         return () => {
           hook();
           originalMethod();
-        }
+        };
       },
-    }
-  }
-}
+    };
+  };
+};
 
 // const Capitalize = () => {
 //   return function<T extends { new(...args: any[]): {}}>(constructor: T): T {
@@ -35,23 +43,23 @@ const Before = (hook: Function): Function => {
 // }
 
 const Capitalize = () => {
-  return function<T extends { new(...args: any[]): {}}>(constructor: T): T {
+  return function <T extends { new (...args: any[]): {} }>(constructor: T): T {
     return class extends constructor {
       constructor(...args: any[]) {
         super(...args);
         // Get all properties of the instance
         const propertyNames = Object.getOwnPropertyNames(this);
-        
+
         // Capitalize all string properties
-        propertyNames.forEach(prop => {
+        propertyNames.forEach((prop) => {
           if (typeof this[prop] === 'string') {
             this[prop] = this[prop].toUpperCase();
           }
         });
       }
-    }
-  }
-}
+    };
+  };
+};
 
 interface IFooBar {
   foo(): void;
