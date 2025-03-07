@@ -1,0 +1,52 @@
+[
+  {
+    "state": "China",
+    "capital": "Beijing",
+    "currency": "Yuan"
+  },
+  {
+    "state": "India",
+    "capital": "New Delhi",
+    "currency": "Rupee"
+  },
+  {
+    "state": "Japan",
+    "capital": "Tokyo",
+    "currency": "Yen"
+  },
+  {
+    "state": "South Korea",
+    "capital": "Seoul",
+    "currency": "Won"
+  },
+  {
+    "state": "Indonesia",
+    "capital": "Jakarta",
+    "currency": "Rupiah"
+  },
+  {
+    "state": "Pakistan",
+    "capital": "Islamabad",
+    "currency": "Rupee"
+  },
+  {
+    "state": "Bangladesh",
+    "capital": "Dhaka",
+    "currency": "Taka"
+  },
+  {
+    "state": "Vietnam",
+    "capital": "Hanoi",
+    "currency": "Dong"
+  },
+  {
+    "state": "Thailand",
+    "capital": "Bangkok",
+    "currency": "Baht"
+  },
+  {
+    "state": "Saudi Arabia",
+    "capital": "Riyadh",
+    "currency": "Riyal"
+  }
+]

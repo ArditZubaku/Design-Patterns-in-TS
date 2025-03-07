@@ -1,0 +1,52 @@
+[
+  {
+    "state": "McMurdo Station",
+    "capital": "McMurdo",
+    "currency": "US Dollar"
+  },
+  {
+    "state": "Amundsen-Scott Station",
+    "capital": "South Pole",
+    "currency": "US Dollar"
+  },
+  {
+    "state": "Palmer Station",
+    "capital": "Palmer",
+    "currency": "US Dollar"
+  },
+  {
+    "state": "Vostok Station",
+    "capital": "Vostok",
+    "currency": "Russian Ruble"
+  },
+  {
+    "state": "Mirny Station",
+    "capital": "Mirny",
+    "currency": "Russian Ruble"
+  },
+  {
+    "state": "Davis Station",
+    "capital": "Davis",
+    "currency": "Australian Dollar"
+  },
+  {
+    "state": "Casey Station",
+    "capital": "Casey",
+    "currency": "Australian Dollar"
+  },
+  {
+    "state": "Mawson Station",
+    "capital": "Mawson",
+    "currency": "Australian Dollar"
+  },
+  {
+    "state": "Rothera Station",
+    "capital": "Rothera",
+    "currency": "British Pound"
+  },
+  {
+    "state": "Halley Station",
+    "capital": "Halley",
+    "currency": "British Pound"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "state": "Brazil",
+    "capital": "Brasília",
+    "currency": "Real"
+  },
+  {
+    "state": "Argentina",
+    "capital": "Buenos Aires",
+    "currency": "Peso"
+  },
+  {
+    "state": "Colombia",
+    "capital": "Bogotá",
+    "currency": "Peso"
+  },
+  {
+    "state": "Chile",
+    "capital": "Santiago",
+    "currency": "Peso"
+  },
+  {
+    "state": "Peru",
+    "capital": "Lima",
+    "currency": "Sol"
+  },
+  {
+    "state": "Venezuela",
+    "capital": "Caracas",
+    "currency": "Bolívar"
+  },
+  {
+    "state": "Ecuador",
+    "capital": "Quito",
+    "currency": "US Dollar"
+  },
+  {
+    "state": "Bolivia",
+    "capital": "Sucre",
+    "currency": "Boliviano"
+  },
+  {
+    "state": "Paraguay",
+    "capital": "Asunción",
+    "currency": "Guaraní"
+  },
+  {
+    "state": "Uruguay",
+    "capital": "Montevideo",
+    "currency": "Peso"
+  }
+]

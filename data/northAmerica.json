@@ -1,0 +1,52 @@
+[
+  {
+    "state": "United States",
+    "capital": "Washington D.C.",
+    "currency": "Dollar"
+  },
+  {
+    "state": "Canada",
+    "capital": "Ottawa",
+    "currency": "Canadian Dollar"
+  },
+  {
+    "state": "Mexico",
+    "capital": "Mexico City",
+    "currency": "Peso"
+  },
+  {
+    "state": "Guatemala",
+    "capital": "Guatemala City",
+    "currency": "Quetzal"
+  },
+  {
+    "state": "Cuba",
+    "capital": "Havana",
+    "currency": "Peso"
+  },
+  {
+    "state": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "currency": "Peso"
+  },
+  {
+    "state": "Honduras",
+    "capital": "Tegucigalpa",
+    "currency": "Lempira"
+  },
+  {
+    "state": "Panama",
+    "capital": "Panama City",
+    "currency": "Balboa / US Dollar"
+  },
+  {
+    "state": "Costa Rica",
+    "capital": "San José",
+    "currency": "Colón"
+  },
+  {
+    "state": "Jamaica",
+    "capital": "Kingston",
+    "currency": "Jamaican Dollar"
+  }
+]

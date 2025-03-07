@@ -1,0 +1,52 @@
+[
+  {
+    "state": "Nigeria",
+    "capital": "Abuja",
+    "currency": "Naira"
+  },
+  {
+    "state": "South Africa",
+    "capital": "Pretoria",
+    "currency": "Rand"
+  },
+  {
+    "state": "Kenya",
+    "capital": "Nairobi",
+    "currency": "Shilling"
+  },
+  {
+    "state": "Egypt",
+    "capital": "Cairo",
+    "currency": "Egyptian Pound"
+  },
+  {
+    "state": "Ghana",
+    "capital": "Accra",
+    "currency": "Cedi"
+  },
+  {
+    "state": "Algeria",
+    "capital": "Algiers",
+    "currency": "Dinar"
+  },
+  {
+    "state": "Ethiopia",
+    "capital": "Addis Ababa",
+    "currency": "Birr"
+  },
+  {
+    "state": "Morocco",
+    "capital": "Rabat",
+    "currency": "Dirham"
+  },
+  {
+    "state": "Sudan",
+    "capital": "Khartoum",
+    "currency": "Sudanese Pound"
+  },
+  {
+    "state": "Tanzania",
+    "capital": "Dodoma",
+    "currency": "Shilling"
+  }
+]

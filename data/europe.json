@@ -1,0 +1,52 @@
+[
+  {
+    "state": "Germany",
+    "capital": "Berlin",
+    "currency": "Euro"
+  },
+  {
+    "state": "France",
+    "capital": "Paris",
+    "currency": "Euro"
+  },
+  {
+    "state": "United Kingdom",
+    "capital": "London",
+    "currency": "Pound Sterling"
+  },
+  {
+    "state": "Italy",
+    "capital": "Rome",
+    "currency": "Euro"
+  },
+  {
+    "state": "Spain",
+    "capital": "Madrid",
+    "currency": "Euro"
+  },
+  {
+    "state": "Netherlands",
+    "capital": "Amsterdam",
+    "currency": "Euro"
+  },
+  {
+    "state": "Sweden",
+    "capital": "Stockholm",
+    "currency": "Krona"
+  },
+  {
+    "state": "Poland",
+    "capital": "Warsaw",
+    "currency": "Zloty"
+  },
+  {
+    "state": "Greece",
+    "capital": "Athens",
+    "currency": "Euro"
+  },
+  {
+    "state": "Norway",
+    "capital": "Oslo",
+    "currency": "Krone"
+  }
+]

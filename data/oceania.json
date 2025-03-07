@@ -1,0 +1,52 @@
+[
+  {
+    "state": "Australia",
+    "capital": "Canberra",
+    "currency": "Australian Dollar"
+  },
+  {
+    "state": "New Zealand",
+    "capital": "Wellington",
+    "currency": "New Zealand Dollar"
+  },
+  {
+    "state": "Fiji",
+    "capital": "Suva",
+    "currency": "Fijian Dollar"
+  },
+  {
+    "state": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "currency": "Kina"
+  },
+  {
+    "state": "Samoa",
+    "capital": "Apia",
+    "currency": "Tala"
+  },
+  {
+    "state": "Tonga",
+    "capital": "Nuku'alofa",
+    "currency": "Paʻanga"
+  },
+  {
+    "state": "Vanuatu",
+    "capital": "Port Vila",
+    "currency": "Vatu"
+  },
+  {
+    "state": "Solomon Islands",
+    "capital": "Honiara",
+    "currency": "Solomon Islands Dollar"
+  },
+  {
+    "state": "Kiribati",
+    "capital": "Tarawa",
+    "currency": "Australian Dollar"
+  },
+  {
+    "state": "Tuvalu",
+    "capital": "Funafuti",
+    "currency": "Australian Dollar"
+  }
+]
