@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["ES6"],
+    "lib": ["ES6", "dom"],
     "types": ["reflect-metadata", "node"],
     "outDir": "./dist",
     "rootDir": "./src",
@@ -21,8 +21,8 @@
     "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
     "strictNullChecks": true,
     "strictFunctionTypes": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    //    "noUnusedLocals": true,
+    //    "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "experimentalDecorators": true,
