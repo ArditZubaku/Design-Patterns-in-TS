@@ -32,12 +32,14 @@ export class Car {
   }
 
   registerSpeedObserver(observer: CurrentSpeedObserver): void {
-    if (!this.currentSpeedObservers.find(o => o === observer)) {
-    this.currentSpeedObservers.push(observer);
+    if (!this.currentSpeedObservers.find((o) => o === observer)) {
+      this.currentSpeedObservers.push(observer);
     }
   }
 
   notifyCurrentSpeedObservers(newValue: number, oldValue: number): void {
-    this.currentSpeedObservers.forEach((observer) => observer(newValue, oldValue));
+    this.currentSpeedObservers.forEach((observer) =>
+      observer(newValue, oldValue),
+    );
   }
 }

@@ -1,15 +1,15 @@
-import { Car } from "./car";
-import { promisify} from "util";
+import { Car } from './car';
+import { promisify } from 'util';
 
 function reportCurrentSpeed(newValue: number, oldValue: number): void {
   console.log(`Current speed changed from ${oldValue} to ${newValue}`);
 }
 
 function reportMaxSpeed(newValue: number, oldValue: number): void {
-    const speedLimit = 100;
-    if (newValue > speedLimit) {
-        console.log(`Speed limit exceeded: ${newValue}`);
-    }
+  const speedLimit = 100;
+  if (newValue > speedLimit) {
+    console.log(`Speed limit exceeded: ${newValue}`);
+  }
 }
 
 const sleep = promisify(setTimeout);
